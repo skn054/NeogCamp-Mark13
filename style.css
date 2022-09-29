@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root {
+    --primary-color: blueviolet;
+   --button-color: #cbd5e1;
+   --background-light: #f8fafc;
+   --input-text-color:#3D550C;
+   --error-color:red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.navigation {
+    margin-bottom: 10px;
+    text-align: center ;
+    color: var(--background-light);
+    background-color: var(--primary-color);
+    padding: 15px;
+    /* border-top: 50px; */
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    height: 53px;
+}
+
+.main-container{
+    /* display: block; */
+    margin: 25px auto;
+    /* background-color: var(--background-light); */
+    height: 325px;
+    width: 700px;
+    border-radius: 50px;
+    /* border:3px solid var(--primary-color); */
+}
+
+label{
+    display: block;
+    text-align: center;
+    /* margin: 50px; */
+    padding-top: 80px;
+    /* border:1px solid black; */
+}
+
+input{
+    border:2px solid var(--primary-color);
+    padding: 5px;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 25px;
+}
+
+button{
+    border-radius: 50px;
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--background-light);
+}
+
+.result{
+    max-width:300px ;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: var(--primary-color)
+}
+
+.result-err{
+
+    max-width:300px ;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+
+    color: var(--error-color);
+
+}
+
+/* .footer-container{
+
+    text-align: center ;
+    color: var(--background-light);
+    background-color: var(--primary-color);
+    padding: 10px;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 85px;
+} */
+
+li {
+    margin: 10px;
+    padding: 5px;
+    display: inline;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center ;
+    color: var(--background-light);
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: block;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    /* margin-bottom: auto; */
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    /* height: 100%; */
+
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
